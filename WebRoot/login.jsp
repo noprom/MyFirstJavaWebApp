@@ -29,7 +29,7 @@
 <body>
 	<h1>用户登录</h1>
 	<hr>
-	<form action="dologin.jsp" name="loginForm" method="get">
+	<form action="dologin.jsp" name="loginForm" method="post">
 		<table>
 			<tr>
 				<td>用户名</td>
@@ -38,7 +38,7 @@
 
 			<tr>
 				<td>密码</td>
-				<td><input type="text" name="password" /></td>
+				<td><input type="password" name="password" /></td>
 			</tr>
 
 			<tr>
