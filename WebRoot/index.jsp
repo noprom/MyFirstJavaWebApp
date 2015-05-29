@@ -22,5 +22,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
    <h1>你狠牛逼哦</h1>
+   <!-- 浏览器可见注释 -->
+   <%
+		// java单行注释，浏览器不可见
+		/*
+		 *	java多行注释，浏览器不可见
+		 */   
+		 out.println("我会说这是Hello World么?");
+    %>
+    
   </body>
 </html>
