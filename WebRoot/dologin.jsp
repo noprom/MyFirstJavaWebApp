@@ -27,6 +27,13 @@
 </head>
 
 <body>
+
 	<h1>骚年你登陆成功了！</h1>
+	<%
+		// 无法通过URL传递而解决中文乱码问题
+		request.setCharacterEncoding("utf-8");
+	%>
+	用户名:<%=request.getParameter("username")%>
+	密码：<%=request.getParameter("password")%>
 </body>
 </html>

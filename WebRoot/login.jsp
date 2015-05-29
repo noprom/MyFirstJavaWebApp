@@ -1,4 +1,4 @@
-<%@page import="java.text.SimpleDateFormat"%>
+<%@ page import="java.text.SimpleDateFormat"%>
 <%@ page language="java" import="java.util.*"
 	contentType="text/html; charset=UTF-8"%>
 <%
@@ -35,18 +35,15 @@
 				<td>用户名</td>
 				<td><input type="text" name="username" /></td>
 			</tr>
-
 			<tr>
 				<td>密码</td>
 				<td><input type="password" name="password" /></td>
 			</tr>
-
 			<tr>
-
 				<td colspan="2"><input type="submit" value="登录" /></td>
 			</tr>
 		</table>
 	</form>
-
+	<a href="dologin.jsp?username=啥子哟&password=22222">点我</a>
 </body>
 </html>
